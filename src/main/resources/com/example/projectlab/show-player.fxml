@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectlab.ShowPlayerController">
+    <children>
+
+        <Label layoutX="231.0" layoutY="152.0" text="Market value:" />
+        <Button layoutX="495.0" layoutY="328.0" mnemonicParsing="false" onAction="#switchToClubView" text="Go Back" />
+        <Label layoutX="231.0" layoutY="110.0" text="Player Id:" />
+        <Label fx:id="IdLabel" layoutX="319.0" layoutY="110.0" text="Label" />
+        <Label layoutX="231.0" layoutY="195.0" text="Creation Time:" />
+        <Label fx:id="CreationTimeLabel" layoutX="319.0" layoutY="195.0" text="Label" />
+        <Label layoutX="231.0" layoutY="235.0" text="Club Id:" />
+        <Label fx:id="MarketValueLabel" layoutX="319.0" layoutY="152.0" text="Label" />
+        <Label fx:id="ClubIdLabel" layoutX="319.0" layoutY="235.0" text="Label" />
+        <Label fx:id="PlayerNameLabel" layoutX="275.0" layoutY="79.0" text="Label" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectlab.HomeController">
+   <children>
+       <Button layoutX="300.0" layoutY="48.0" onAction="#switchToAddLeague" text="Add League" />
+   
+      <ListView fx:id="LeagueListView" layoutX="47.0" layoutY="48.0" prefHeight="305.0" prefWidth="244.0" />
+      <Button layoutX="300.0" layoutY="144.0" mnemonicParsing="false" onAction="#switchToAddClub" text="Add Club" />
+      <Button layoutX="300.0" layoutY="80.0" mnemonicParsing="false" onAction="#switchToAddManager" text="Add Manager" />
+      <Button layoutX="300.0" layoutY="111.0" mnemonicParsing="false" onAction="#switchToAddStadium" text="Add Stadium" />
+      <Button layoutX="303.0" layoutY="176.0" mnemonicParsing="false" onAction="#switchToAddPlayer" text="Add Player" />
+      <Button layoutX="307.0" layoutY="258.0" mnemonicParsing="false" onAction="#delete" text="Delete something" textFill="#ff0101" />
+   </children>
+</AnchorPane>
